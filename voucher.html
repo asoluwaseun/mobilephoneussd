@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        voucher = [];
+        function voucherGenerator() {
+
+            voucher=[];
+            for(i = 0; i < parseInt(voucherNo.value); i++){
+                voucher[i] = parseInt((Math.random()* 120000000000) + 100000000000);
+                voucher2 = "<p>" + voucher[i] + "<br /></p>";
+                voucherDisplay.innerHTML += voucher2;
+            }
+            voucherStore = JSON.stringify(voucher);
+            localStorage.setItem("vouchers",voucherStore);
+        }
+
+        function resetGenerator() {
+            voucherNo.value = "";
+            voucherDisplay.innerHTML = "";
+            voucher = [];
+        }
+    </script>
+</head>
+<body>
+<input type="number" id="voucherNo">
+<button onclick="voucherGenerator()">GENERATE</button>
+<button onclick="resetGenerator()">RESET</button>
+
+<div id="voucherDisplay"></div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+*{
+    font-family: Calibri;
+    font-weight: bold;
+}
+body{
+    background-color: #4e4e4e;
+}
+table{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 40px;
+    border-color: #3f4041;
+    border-radius: 10px;
+    width: 50px !important;
+    padding: 0px;
+    background-color: #252525;
+
+    height: 300px !important;
+    text-decoration: none;
+}
+
+td{
+    width: auto;
+    height: auto !important;
+}
+button{
+    cursor: pointer;
+    width:80px;
+    height: 30px;
+    text-align: center;
+    border: 0.5px solid #cc1e12;
+    border-radius: 8px !important;
+    background-color: #cc1e12;
+    color: white;
+    outline: 0 !important;
+}
+
+button:active{
+    box-shadow: 0 2px 8px 0 white, 0 2px 10px 0 white;
+    border: none;
+    text-decoration: none;
+}
+
+#homebutton{
+    height: 80px;
+    display: none;
+}
+
+#buttons{
+    border: 2px solid ;
+}
+
+#callButton{
+    height: 80px;
+    background-color: #2d9f39;
+    border: 0.5px solid #6ac96a;
+    color: white;
+}
+
+#dropButton{
+    background-color: #c21817;
+    border: 0.5px solid #c21817;
+    color:white;
+}
+
+#displayMain{
+    background-image: url("../images/city.jpg");
+    background-size: cover;
+    background-color: white;
+    height: 150px !important; ;
+
+    color: black !important;
+    text-align: center;
+    padding-top: 90px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin: 15px 20px 20px 20px !important;
+    border-radius: 10px !important;
+    /*border: 1px #787878 solid;*/
+    display: flex;
+    flex-direction: column;
+
+}
+
+#timeDisplay{
+    color: white !important;
+    font-size: 19px;
+    text-align: center;
+    color: rgba(14,3,2,0.7)
+
+}
+
+
+
+
+input[type=number]{
+    text-align: center;
+    color: white;
+    background-color: #4b0704;
+}
+
+#voucherDisplay{
+   
+
+}
+
+#voucherDisplay p{
+    color: #00cc00;
+    text-align: center;
+}

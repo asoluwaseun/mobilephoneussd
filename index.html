@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mobile Phone</title>
+    <link href="css/mobile.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--<link href="css/font-awesome.min.css" rel="stylesheet">-->
+    <script src="js/mobile.js"></script>
+</head>
+<body onload="timeLoad(),loadd()">
+<div class="container">
+    <div class="row">
+        <div class=" col-sm-12 col-lg-5 col-md-5 ">
+<div id="voucherDesign">
+
+    <input type="number" id="voucherNo">
+    <button onclick="voucherGenerator()">GENERATE</button>
+    <button onclick="resetGenerator()">RESET</button>
+
+    <div id="voucherDisplay"></div>
+</div>
+        </div>
+        <div class="col-2"></div>
+        <div class=" col-sm-12 col-lg-5 col-md-5">
+<table align="center" cellpadding="5px" style="margin-bottom: 40px;margin-top: 10px">
+    <tbody></tbody>
+    <tr ><td height="30px" colspan="3">
+        <div id="timeDisplay"></div>
+    </td></tr>
+    <tr><td colspan="3"><div id="displayMain">
+    </div>
+    </td></tr>
+    <tbody id="buttons">
+    <tr><td rowspan="2"><button id="callButton" onclick="call()">call</button></td><td rowspan="2"><button id="homebutton"><i class="fa fa-circle" style="font-size: 30px"></i></button></td><td><button onclick="backspace()">backspace</button></td></tr>
+    <tr><td><button id="dropButton" onclick="dropcall()">drop call</button></td></tr>
+    <tr><td colspan="3" align="center" ><span style="color: #fff;"> Samuel Oluwaseun Adesina &copy; 2018</span></td></tr>
+    <tbody id="phoneNumberKeys">
+    <tr><td><button onclick="keyPress(1)">1</button></td><td><button onclick="keyPress(2)">2</button></td><td><button onclick="keyPress(3)">3</button></td></tr>
+    <tr><td><button onclick="keyPress(4)">4</button></td><td><button onclick="keyPress(5)">5</button></td><td><button onclick="keyPress(6)">6</button></td></tr>
+    <tr><td><button onclick="keyPress(7)">7</button></td><td><button onclick="keyPress(8)">8</button></td><td><button onclick="keyPress(9)">9</button></td></tr>
+    <tr><td><button onclick="keyPress('*')">*</button></td><td><button onclick="keyPress(0)">0</button></td><td><button onclick="keyPress('#')">&#35</button></td></tr>
+    </tbody>
+    </tbody>
+</table>
+        </div>
+    </div>
+    <div  style="color: black;">
+
+
+        <input type="text" id="displayMinorHide" style="display:none " >
+        <input type="number" id="displayMinorHide2" style="display:none " >
+
+    </div>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
