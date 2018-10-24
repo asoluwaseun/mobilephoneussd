@@ -67,11 +67,11 @@ button:active{
     background-image: url("../images/city.jpg");
     background-size: cover;
     background-color: white;
-    height: 150px !important; ;
+    height: 200px !important; ;
 
     color: black !important;
     text-align: center;
-    padding-top: 90px !important;
+    padding-top: 10px !important;
     padding-left: 20px !important;
     padding-right: 20px !important;
     margin: 15px 20px 20px 20px !important;
@@ -100,7 +100,7 @@ input[type=number]{
 }
 
 #voucherDisplay{
-   
+
 
 }
 
