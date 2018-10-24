@@ -67,7 +67,7 @@ button:active{
     background-image: url("../images/city.jpg");
     background-size: cover;
     background-color: white;
-    height: 202px !important; ;
+    height: 200px !important; ;
 
     color: black !important;
     text-align: center;
