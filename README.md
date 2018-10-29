@@ -14,6 +14,6 @@ This prototype uses some basic syntaxes to show how the USSD functions
  To call, simply dial any 11 digits number.
  
  The prototype supports 3 tariff plans with "Pulse" as the default, each tarriff plan has a different call rate
- To change the tarriff plan, simply dial *1233 and follow the prompt.
+ To change the tarriff plan, simply dial *123# and follow the prompt.
  
  
