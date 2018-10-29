@@ -8,6 +8,11 @@ let recharge = "";
 let sec = 0;
 let countmin = 0;
 let countsec = 0;
+let retrieved1 = [];
+let retrieved2 = [];
+let retrieved3 = [];
+let retrieved4 = [];
+
 
 let voucherSection = "";
 callingNow = new Audio();
